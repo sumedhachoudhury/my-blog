@@ -1,31 +1,31 @@
 .navbar {
-  background-color: #b2adad;
+  background-color: #bdb8b8;
 }
 .navbar .navbar-brand {
-  color: #020d10;
+  color: #010404;
 }
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:focus {
-  color: #ffbbbc;
+  color: #d06a6b;
 }
 .navbar .navbar-text {
-  color: #020d10;
+  color: #010404;
 }
 .navbar .navbar-text a {
-  color: #ffbbbc;
+  color: #d06a6b;
 }
 .navbar .navbar-text a:hover,
 .navbar .navbar-text a:focus {
-  color: #ffbbbc; 
+  color: #d06a6b; 
 }
 .navbar .navbar-nav .nav-link {
-  color: #020d10;
+  color: #010404;
   border-radius: .25rem;
   margin: 0 0.25em;
 }
 .navbar .navbar-nav .nav-link:not(.disabled):hover,
 .navbar .navbar-nav .nav-link:not(.disabled):focus {
-  color: #ffbbbc;
+  color: #d06a6b;
 }
 .navbar .navbar-nav .nav-item.active .nav-link,
 .navbar .navbar-nav .nav-item.active .nav-link:hover,
@@ -33,7 +33,7 @@
 .navbar .navbar-nav .nav-item.show .nav-link,
 .navbar .navbar-nav .nav-item.show .nav-link:hover,
 .navbar .navbar-nav .nav-item.show .nav-link:focus {
-  color: #ffbbbc;
+  color: #d06a6b;
   background-color: #21486e;
 }
 .navbar .navbar-toggle {
@@ -44,90 +44,109 @@
   background-color: #21486e;
 }
 .navbar .navbar-toggle .navbar-toggler-icon {
-  color: #020d10;
+  color: #010404;
 }
 .navbar .navbar-collapse,
 .navbar .navbar-form {
-  border-color: #020d10;
+  border-color: #010404;
 }
 .navbar .navbar-link {
-  color: #020d10;
+  color: #010404;
 }
 .navbar .navbar-link:hover {
-  color: #ffbbbc;
+  color: #d06a6b;
 }
 
 @media (max-width: 575px) {
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #020d10;
+    color: #010404;
   }
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #ffbbbc;
+    color: #d06a6b;
   }
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #ffbbbc;
+    color: #d06a6b;
     background-color: #21486e;
   }
 }
 
 @media (max-width: 767px) {
   .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #020d10;
+    color: #010404;
   }
   .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
   .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #ffbbbc;
+    color: #d06a6b;
   }
   .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #ffbbbc;
+    color: #d06a6b;
     background-color: #21486e;
   }
 }
 
 @media (max-width: 991px) {
   .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #020d10;
+    color: #010404;
   }
   .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
   .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #ffbbbc;
+    color: #d06a6b;
   }
   .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #ffbbbc;
+    color: #d06a6b;
     background-color: #21486e;
   }
 }
 
 @media (max-width: 1199px) {
   .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
-    color: #020d10;
+    color: #010404;
   }
   .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
   .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-    color: #ffbbbc;
+    color: #d06a6b;
   }
   .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
-    color: #ffbbbc;
+    color: #d06a6b;
     background-color: #21486e;
   }
 }
 
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
-  color: #020d10;
+  color: #010404;
 }
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
-  color: #ffbbbc;
+  color: #d06a6b;
 }
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
-  color: #ffbbbc;
+  color: #d06a6b;
   background-color: #21486e;
 }
-.left-distance{
-    margin-left: 50px;
-    margin-top: 50px;
+
+
+body {
+  font-family: Arial;
+  padding: 60px;
+  padding-block-end: 20px;
+  background: gray;
 }
+
+
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+
+
+
+
 #more {display: none;}
 
 /* Right column */
